@@ -1,0 +1,42 @@
+C:\Users\KaterynaKamenieva\test\qa-test-katekamenieva>testcafe chrome mytest.js
+Using locally installed version of TestCafe.
+ Running tests in:
+ - Chrome 104.0.5112.102 / Windows 10
+
+ Getting Started
+ √ Save name button click
+
+
+ 1 passed (2s)
+
+C:\Users\KaterynaKamenieva\test\qa-test-katekamenieva>testcafe chrome mytest.js  --reporter json
+Using locally installed version of TestCafe.
+{
+  "startTime": "2022-09-05T04:26:51.517Z",
+  "endTime": "2022-09-05T04:26:53.311Z",
+  "userAgents": [
+    "Chrome 104.0.5112.102 / Windows 10"
+  ],
+  "passed": 1,
+  "total": 1,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Getting Started",
+      "path": "C:\\Users\\KaterynaKamenieva\\test\\qa-test-katekamenieva\\mytest.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "Save name button click",
+          "meta": {},
+          "errs": [],
+          "durationMs": 1782,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}
