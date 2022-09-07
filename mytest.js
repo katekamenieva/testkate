@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture`Getting Started`
-    .page`http://localhost:3000/`;
+    .page`https://clever-visvesvaraya-ea608e.netlify.app/`;
 
 test('Save name button click', async t => {
     await t
